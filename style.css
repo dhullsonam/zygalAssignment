@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  font-family:sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+    margin: auto;
+  width: 70%;
+  height: auto;
+  display: flex; 
+   flex-direction: column;
+  justify-content: center;
+  
+}
+.selection {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+.select-month {
+  margin-right: 3rem;
+}
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+tr {
+  height: 50px;
+}
+td {
+  text-align: center;
+}
+
+th {
+  width: 11%;
+}
+.enter-date {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.input-date {
+  padding: 1rem 1.5rem;
+  border: 1px solid black;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+.btn {
+  padding: 1rem 2.5rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: #030fefa6;
+}
+
