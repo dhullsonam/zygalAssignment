@@ -11,7 +11,7 @@ function updateMonth() {
 }
 
 function updateYear() {
-    selectedYear = +document.querySelector("#selected-year").value;
+    selectedYear = document.querySelector("#selected-year").value;
     createCalendar(calendar, selectedYear, selectedMonth);
 }
 var d = new Date();
@@ -59,9 +59,7 @@ function markedDate() {
   }  else {
   var tds = document.getElementsByTagName("td");
 
-for(var i = 0; i < tds.length; i++) {
    tds[enteredDate].style.backgroundColor="green";
-}
   }
   document.querySelector("#entered-date").value = "";
 }
